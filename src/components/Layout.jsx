@@ -50,7 +50,7 @@ function Layout({ children }) {
 
   const [searchOpen, setSearchOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(
-    localStorage.getItem("location") || "Ibadan",
+    localStorage.getItem("location") || "Current Location",
   );
   const [locationAnchor, setLocationAnchor] = useState(null);
   const cartCount = useCartStore((state) =>
