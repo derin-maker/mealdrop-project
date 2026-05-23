@@ -12,6 +12,7 @@ import OrderHistory from './pages/OrderHistory'
 import OrderDetail from './pages/OrderDetail'
 import Profile from './pages/Profile'
 import Auth from './pages/Auth'
+import Payment from './pages/Payment'
 
 function App() {
   const { mode } = useThemeStore()
@@ -33,6 +34,8 @@ function App() {
                 <Route path="/orders" element={<OrderHistory />} />
                 <Route path="/orders/:id" element={<OrderDetail />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/payment" element={<Payment />} />
+
               </Routes>
             </Layout>
           } />

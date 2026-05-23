@@ -108,7 +108,7 @@ function OrderHistory() {
         <Typography variant="body2" color="text.secondary" textAlign="center">
           Your order history will show up here after you place your first order.
         </Typography>
-        <Button variant="contained" onClick={() => navigate("/")}>
+        <Button variant="contained" onClick={() => navigate("/home")}>
           Order Now
         </Button>
       </Box>
