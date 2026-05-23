@@ -53,12 +53,17 @@ function Layout({ children }) {
     localStorage.getItem("location") || "Current Location",
   );
   const [locationAnchor, setLocationAnchor] = useState(null);
-  const cartCount = useCartStore((state) =>
-    state.items.reduce((sum, i) => sum + i.quantity, 0), // total quantity of items in cart
+  const cartCount = useCartStore(
+    (state) => state.items.reduce((sum, i) => sum + i.quantity, 0), // total quantity of items in cart
   );
 
   const navItems = [
-    { label: "Home", path: "/", icon: <HomeOutlined />, activeIcon: <Home /> },
+    {
+      label: "Home",
+      path: "/home",
+      icon: <HomeOutlined />,
+      activeIcon: <Home />,
+    },
     {
       label: "Favorites",
       path: "/favorites",
