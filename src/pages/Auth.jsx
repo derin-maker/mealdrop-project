@@ -92,7 +92,7 @@ function Auth() {
       JSON.stringify([...stored, newUser]),
     );
     login({ name, email, phone });
-    navigate("/");
+    navigate("/home");
   };
 
   const [loading, setLoading] = useState(true);
