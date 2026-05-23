@@ -22,11 +22,11 @@ function App() {
       <CssBaseline />
       <BrowserRouter>
         <Routes>
-          <Route path="/auth" element={<Auth />} />
+          <Route path="/" element={<Auth />} />
           <Route path="/*" element={
             <Layout>
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/menu/:id" element={<Menu />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/favorites" element={<Favorites />} />
