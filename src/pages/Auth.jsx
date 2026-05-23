@@ -59,7 +59,7 @@ function Auth() {
     }
 
     login({ name: found.name, email: found.email, phone: found.phone });
-    navigate("/");
+    navigate("/home");
   };
 
   const handleSignup = () => {
