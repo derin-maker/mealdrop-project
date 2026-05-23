@@ -58,7 +58,7 @@ function ProfileHeader({ user }) {
           sx={{ p: 1 }}
           onClick={() => {
             logout();
-            navigate("/auth");
+            navigate("/");
           }}
         >
           Logout
