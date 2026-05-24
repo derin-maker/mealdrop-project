@@ -144,6 +144,125 @@
       "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
       "category": "Swallows",
       "popular": false
-    }
-  ]
+    }],
+    "r7": [
+  {
+    "id": "m16",
+    "name": "Chicken Combo Meal",
+    "description": "3 pieces of fried chicken with fries and a drink",
+    "price": 3200,
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300",
+    "category": "Combos",
+    "popular": true
+  },
+  {
+    "id": "m17",
+    "name": "Spicy Wings",
+    "description": "10 pieces of crispy spiced chicken wings",
+    "price": 2800,
+    "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300",
+    "category": "Chicken",
+    "popular": false
+  }
+],
+"r8": [
+  {
+    "id": "m18",
+    "name": "Beans & Plantain",
+    "description": "Honey beans with fried plantain and palm oil",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
+    "category": "Swallows",
+    "popular": true
+  },
+  {
+    "id": "m19",
+    "name": "White Rice & Stew",
+    "description": "Steamed white rice with rich tomato stew and assorted meat",
+    "price": 1500,
+    "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300",
+    "category": "Rice",
+    "popular": true
+  }
+],
+"r9": [
+  {
+    "id": "m20",
+    "name": "Grilled Tilapia",
+    "description": "Fresh tilapia grilled with herbs and spices, served with chips",
+    "price": 6500,
+    "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300",
+    "category": "Seafood",
+    "popular": true
+  },
+  {
+    "id": "m21",
+    "name": "Prawn Stir Fry",
+    "description": "Jumbo prawns stir fried with vegetables in garlic butter",
+    "price": 8000,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300",
+    "category": "Seafood",
+    "popular": false
+  }
+],
+"r10": [
+  {
+    "id": "m22",
+    "name": "Beef Suya",
+    "description": "Thinly sliced beef marinated in spiced yaji and grilled",
+    "price": 3000,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+    "category": "Grills",
+    "popular": true
+  },
+  {
+    "id": "m23",
+    "name": "Chicken Suya",
+    "description": "Tender chicken pieces in suya spice on skewers",
+    "price": 2500,
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300",
+    "category": "Grills",
+    "popular": true
+  }
+],
+"r11": [
+  {
+    "id": "m24",
+    "name": "Four Cheese Pizza",
+    "description": "Mozzarella, cheddar, parmesan and gouda on tomato base",
+    "price": 7500,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300",
+    "category": "Pizza",
+    "popular": true
+  },
+  {
+    "id": "m25",
+    "name": "Veggie Supreme",
+    "description": "Loaded with bell peppers, mushrooms, olives and onions",
+    "price": 6500,
+    "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300",
+    "category": "Pizza",
+    "popular": false
+  }
+],
+"r12": [
+  {
+    "id": "m26",
+    "name": "Ofada Rice & Stew",
+    "description": "Local ofada rice with designer stew and assorted offals",
+    "price": 3500,
+    "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300",
+    "category": "Rice",
+    "popular": true
+  },
+  {
+    "id": "m27",
+    "name": "Banga Soup & Starch",
+    "description": "Delta-style banga soup with soft starch and dried fish",
+    "price": 4000,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
+    "category": "Soups",
+    "popular": false
+  }
+] 
 }

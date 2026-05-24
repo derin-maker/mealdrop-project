@@ -7,6 +7,11 @@ import {
   Button,
   Divider,
   Chip,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  TextField,
 } from "@mui/material";
 import {
   HomeOutlined,
@@ -19,20 +24,6 @@ import ProfileHeader from "../components/ProfileHeader";
 import useAuthStore from "../store/authStore";
 import useOrderStore from "../store/orderStore";
 import { useEffect, useState } from "react";
-const SAVED_ADDRESSES = [
-  {
-    id: 1,
-    label: "Home",
-    address: "No 12 Adeleke Street, Bodija, Ibadan",
-    icon: <HomeOutlined fontSize="small" />,
-  },
-  {
-    id: 2,
-    label: "Work",
-    address: "Suite 4B, Challenge Plaza, Ibadan",
-    icon: <WorkOutlined fontSize="small" />,
-  },
-];
 
 const PAYMENT_METHODS = [
   {
@@ -54,11 +45,47 @@ function Profile() {
   const { user } = useAuthStore();
   const { orders } = useOrderStore();
   const [loading, setLoading] = useState(true);
+  const [addAddressOpen, setAddAddressOpen] = useState(false);
+  const [newAddress, setNewAddress] = useState({ label: "", address: "" });
+  const [editAddressOpen, setEditAddressOpen] = useState(false);
+  const [selectedAddress, setSelectedAddress] = useState(null);
+  const handleEditAddress = () => {
+    if (!selectedAddress.label || !selectedAddress.address) return;
+    const updated = addresses.map((a) =>
+      a.id === selectedAddress.id ? selectedAddress : a,
+    );
+    localStorage.setItem("savedAddresses", JSON.stringify(updated));
+    setAddresses(updated);
+    setEditAddressOpen(false);
+  };
+  const [addresses, setAddresses] = useState(
+    JSON.parse(localStorage.getItem("savedAddresses")) || [
+      {
+        id: "1",
+        label: "Home",
+        address: "No 12 Adeleke Street, Bodija, Ibadan",
+      },
+      { id: "2", label: "Work", address: "Suite 4B, Challenge Plaza, Ibadan" },
+    ],
+  );
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 800);
     return () => clearTimeout(timer);
   }, []);
+
+  const handleAddAddress = () => {
+    if (!newAddress.label || !newAddress.address) return;
+    const updated = [
+      ...addresses,
+      { id: Date.now().toString(), ...newAddress },
+    ];
+    localStorage.setItem("savedAddresses", JSON.stringify(updated));
+    setAddresses(updated);
+    setNewAddress({ label: "", address: "" });
+    setAddAddressOpen(false);
+  };
+
   if (!user) {
     return (
       <Box
@@ -79,7 +106,7 @@ function Profile() {
         <Typography variant="body2" color="text.secondary" textAlign="center">
           Log in to view your profile, saved addresses, and order history.
         </Typography>
-        <Button variant="contained" onClick={() => navigate("/auth")}>
+        <Button variant="contained" onClick={() => navigate("/")}>
           Login or Sign Up
         </Button>
       </Box>
@@ -90,7 +117,6 @@ function Profile() {
 
   return (
     <Box sx={{ px: 2, py: 3, maxWidth: 900, mx: "auto" }}>
-      {/* Profile header */}
       <Card sx={{ mb: 3 }}>
         <CardContent>
           <ProfileHeader user={user} />
@@ -104,9 +130,7 @@ function Profile() {
           gap: 3,
         }}
       >
-        {/* Left column */}
         <Box sx={{ display: "flex", flexDirection: "column", gap: 3 }}>
-          {/* Saved Addresses */}
           <Card>
             <CardContent>
               <Box
@@ -124,12 +148,13 @@ function Profile() {
                   startIcon={<AddOutlined />}
                   size="small"
                   color="primary"
+                  onClick={() => setAddAddressOpen(true)}
                 >
                   Add
                 </Button>
               </Box>
               <Box sx={{ display: "flex", flexDirection: "column", gap: 1.5 }}>
-                {SAVED_ADDRESSES.map((addr) => (
+                {addresses.map((addr, i) => (
                   <Box key={addr.id}>
                     <Box
                       sx={{
@@ -142,7 +167,11 @@ function Profile() {
                       }}
                     >
                       <Box sx={{ color: "primary.main", mt: 0.25 }}>
-                        {addr.icon}
+                        {addr.label === "Home" ? (
+                          <HomeOutlined fontSize="small" />
+                        ) : (
+                          <WorkOutlined fontSize="small" />
+                        )}
                       </Box>
                       <Box sx={{ flex: 1 }}>
                         <Typography variant="body2" fontWeight={700}>
@@ -156,20 +185,21 @@ function Profile() {
                         variant="caption"
                         color="primary.main"
                         sx={{ cursor: "pointer" }}
+                        onClick={() => {
+                          setSelectedAddress(addr);
+                          setEditAddressOpen(true);
+                        }}
                       >
                         Edit
                       </Typography>
                     </Box>
-                    {addr.id !== SAVED_ADDRESSES.length && (
-                      <Divider sx={{ mt: 1 }} />
-                    )}
+                    {i < addresses.length - 1 && <Divider sx={{ mt: 1 }} />}
                   </Box>
                 ))}
               </Box>
             </CardContent>
           </Card>
 
-          {/* Payment Methods */}
           <Card>
             <CardContent>
               <Box
@@ -220,7 +250,6 @@ function Profile() {
           </Card>
         </Box>
 
-        {/* Right column — Recent Orders */}
         <Card>
           <CardContent>
             <Box
@@ -244,7 +273,6 @@ function Profile() {
                 View All
               </Typography>
             </Box>
-
             {recentOrders.length === 0 ? (
               <Box sx={{ textAlign: "center", py: 4 }}>
                 <Typography variant="body2" color="text.secondary">
@@ -329,6 +357,73 @@ function Profile() {
           </CardContent>
         </Card>
       </Box>
+
+      <Dialog open={addAddressOpen} onClose={() => setAddAddressOpen(false)}>
+        <DialogTitle>Add Address</DialogTitle>
+        <DialogContent>
+          <TextField
+            label="Label (e.g. Home, Work)"
+            value={newAddress.label}
+            onChange={(e) =>
+              setNewAddress({ ...newAddress, label: e.target.value })
+            }
+            fullWidth
+            margin="normal"
+          />
+          <TextField
+            label="Full Address"
+            value={newAddress.address}
+            onChange={(e) =>
+              setNewAddress({ ...newAddress, address: e.target.value })
+            }
+            fullWidth
+            margin="normal"
+            multiline
+            rows={2}
+          />
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setAddAddressOpen(false)}>Cancel</Button>
+          <Button variant="contained" onClick={handleAddAddress}>
+            Add
+          </Button>
+        </DialogActions>
+      </Dialog>
+
+      <Dialog open={editAddressOpen} onClose={() => setEditAddressOpen(false)}>
+        <DialogTitle>Edit Address</DialogTitle>
+        <DialogContent>
+          <TextField
+            label="Label"
+            value={selectedAddress?.label || ""}
+            onChange={(e) =>
+              setSelectedAddress({ ...selectedAddress, label: e.target.value })
+            }
+            fullWidth
+            margin="normal"
+          />
+          <TextField
+            label="Full Address"
+            value={selectedAddress?.address || ""}
+            onChange={(e) =>
+              setSelectedAddress({
+                ...selectedAddress,
+                address: e.target.value,
+              })
+            }
+            fullWidth
+            margin="normal"
+            multiline
+            rows={2}
+          />
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setEditAddressOpen(false)}>Cancel</Button>
+          <Button variant="contained" onClick={handleEditAddress}>
+            Save
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Box>
   );
 }

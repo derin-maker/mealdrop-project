@@ -7,6 +7,7 @@ import {
   DialogTitle,
   DialogContent,
   DialogActions,
+  TextField,
 } from "@mui/material";
 import {
   EmailOutlined,
@@ -17,10 +18,19 @@ import { useNavigate } from "react-router-dom";
 import useAuthStore from "../store/authStore";
 
 function ProfileHeader({ user }) {
-  const { logout } = useAuthStore();
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
-
+  const [editOpen, setEditOpen] = useState(false);
+  const [editForm, setEditForm] = useState({
+    name: user.name,
+    email: user.email,
+    phone: user.phone,
+  });
+  const handleSave = () => {
+    updateUser(editForm);
+    setEditOpen(false);
+  };
+  const { logout, updateUser } = useAuthStore();
   return (
     <Box sx={{ display: "flex", alignItems: "left", gap: 2, mb: 3, p: 1.5 }}>
       <Box>
@@ -67,20 +77,71 @@ function ProfileHeader({ user }) {
             {user.phone}
           </Typography>
         </Box>
-        <Button variant="outlined" size="small" sx={{ p: 1, mr: 1.5, borderRadius: 1.5 }}>
+        <Button
+          variant="outlined"
+          size="small"
+          sx={{ p: 1, mr: 1.5, borderRadius: 1.5 }}
+          onClick={() => setEditOpen(true)}
+        >
           Edit Profile
         </Button>
         <Button
-        variant="outlined"
-        color="error"
-        size="small"
-        sx={{ p: 1, borderRadius: 1.5 }}
-        onClick={() => setOpen(true)}
-      >
-        Logout
-      </Button>
+          variant="outlined"
+          color="error"
+          size="small"
+          sx={{ p: 1, borderRadius: 1.5 }}
+          onClick={() => setOpen(true)}
+        >
+          Logout
+        </Button>
       </Box>
-      
+
+      <Dialog open={editOpen} onClose={() => setEditOpen(false)}>
+        <DialogTitle>Edit Profile</DialogTitle>
+        <DialogContent>
+          <TextField
+            label="Name"
+            value={editForm.name}
+            onChange={(e) => setEditForm({ ...editForm, name: e.target.value })}
+            fullWidth
+            margin="normal"
+          />
+
+          <TextField
+            label="Email"
+            value={editForm.email}
+            onChange={(e) =>
+              setEditForm({ ...editForm, email: e.target.value })
+            }
+            fullWidth
+            margin="normal"
+          />
+
+          <TextField
+            label="Phone"
+            value={editForm.phone}
+            onChange={(e) =>
+              setEditForm({ ...editForm, phone: e.target.value })
+            }
+            fullWidth
+            margin="normal"
+          />
+        </DialogContent>
+
+        <DialogActions>
+          <Button onClick={() => setEditOpen(false)}>Cancel</Button>
+          <Button
+            variant="contained"
+            onClick={() => {
+              updateUser(editForm);
+              setEditOpen(false);
+            }}
+          >
+            Confirm
+          </Button>
+        </DialogActions>
+      </Dialog>
+
       <Dialog open={open} onClose={() => setOpen(false)}>
         <DialogTitle>Are you sure you want to logout?</DialogTitle>
         <DialogActions>

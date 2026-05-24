@@ -20,13 +20,13 @@ function Cart() {
   const { user } = useAuthStore();
   const { placeOrder } = useOrderStore();
 
-  const subtotal = getTotal();
-  const deliveryFee = items.length > 0 ? 500 : 0;
-  const total = subtotal + deliveryFee;
 
   // Get restaurant name from first item's restaurantId
   const restaurantId = items[0]?.restaurantId;
   const restaurant = restaurants.find((r) => r.id === restaurantId);
+  const deliveryFee = restaurant?.deliveryFee || 0;
+  const subtotal = getTotal();
+  const total = subtotal + deliveryFee;
 
   const handleCheckout = () => {
     if (!user) {

@@ -50,7 +50,7 @@ function Layout({ children }) {
 
   const [searchOpen, setSearchOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(
-    localStorage.getItem("location") || "Current Location",
+    localStorage.getItem('location') || '',
   );
   const [locationAnchor, setLocationAnchor] = useState(null);
   const cartCount = useCartStore(
@@ -139,7 +139,7 @@ function Layout({ children }) {
                 lineHeight={1.2}
                 sx={{ color: "text.primary" }}
               >
-                {selectedLocation}
+                {selectedLocation || "Select Location"}
               </Typography>
             </Box>
             <KeyboardArrowDownOutlined fontSize="small" color="action" />
