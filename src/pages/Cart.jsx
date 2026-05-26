@@ -59,7 +59,7 @@ function Cart() {
         <Typography variant="body2" color="text.secondary" textAlign="center">
           Looks like you haven't added anything yet. Go find something good.
         </Typography>
-        <Button variant="contained" onClick={() => navigate("/")}>
+        <Button variant="contained" onClick={() => navigate("/home")}>
           Browse Restaurants
         </Button>
       </Box>
