@@ -33,7 +33,7 @@ function Cart() {
 
   const handleCheckout = () => {
     if (!user) {
-      navigate("/auth");
+      navigate("/");
       return;
     }
     navigate("/payment");
