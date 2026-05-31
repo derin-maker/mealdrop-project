@@ -27,6 +27,8 @@ import useAuthStore from "../store/authStore";
 function Auth() {
   const navigate = useNavigate();
   const { login } = useAuthStore();
+  const redirectTo =
+    new URLSearchParams(window.location.search).get("redirect") || "/home";
 
   const [tab, setTab] = useState(0);
   const [showPassword, setShowPassword] = useState(false);
@@ -59,7 +61,7 @@ function Auth() {
     }
 
     login({ name: found.name, email: found.email, phone: found.phone });
-    navigate("/home");
+    navigate(redirectTo);
   };
 
   const handleSignup = () => {
@@ -92,7 +94,7 @@ function Auth() {
       JSON.stringify([...stored, newUser]),
     );
     login({ name, email, phone });
-    navigate("/home");
+    navigate(redirectTo);
   };
 
   const [loading, setLoading] = useState(true);

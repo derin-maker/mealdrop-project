@@ -150,7 +150,7 @@ function ProfileHeader({ user }) {
             variant="contained"
             onClick={() => {
               logout();
-              navigate("/");
+              navigate("/home");
             }}
           >
             Confirm

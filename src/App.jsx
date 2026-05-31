@@ -13,6 +13,7 @@ import OrderDetail from './pages/OrderDetail'
 import Profile from './pages/Profile'
 import Auth from './pages/Auth'
 import Payment from './pages/Payment'
+import Landing from './pages/Landing'
 
 function App() {
   const { mode } = useThemeStore()
@@ -23,7 +24,8 @@ function App() {
       <CssBaseline />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Auth />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/*" element={
             <Layout>
               <Routes>
@@ -35,6 +37,7 @@ function App() {
                 <Route path="/orders/:id" element={<OrderDetail />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/payment" element={<Payment />} />
+                <Route path="/landing" element={<Landing />} />
 
               </Routes>
             </Layout>

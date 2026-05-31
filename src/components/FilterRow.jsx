@@ -1,7 +1,9 @@
-import { Box, Chip, Stack } from "@mui/material";
-import { SortOutlined } from "@mui/icons-material";
+import { useState } from "react";
+import { Box, Chip, Menu, MenuItem, Stack } from "@mui/material";
+import { KeyboardArrowDownOutlined, SortOutlined } from "@mui/icons-material";
 
 function FilterRow({ activeFilter, setActiveFilter, sortBy, setSortBy }) {
+  const [sortAnchor, setSortAnchor] = useState(null);
   const categories = [
     "All",
     "Trending",
@@ -10,12 +12,13 @@ function FilterRow({ activeFilter, setActiveFilter, sortBy, setSortBy }) {
     "Fast Food",
     "Intercontinental",
   ];
-  const sortCycle = ["Rating", "Distance", "Delivery Time", "Price"];
-  const handleSort = () => {
-    const current = sortCycle.indexOf(sortBy);
-    const next = sortCycle[(current + 1) % sortCycle.length];
-    setSortBy(next);
+  const sortOptions = ["","Rating", "Distance", "Delivery Time", "Price"];
+
+  const handleSortSelect = (option) => {
+    setSortBy(option);
+    setSortAnchor(null);
   };
+
   return (
     <Box
       sx={{
@@ -41,9 +44,26 @@ function FilterRow({ activeFilter, setActiveFilter, sortBy, setSortBy }) {
       <Chip
         label={`Sort: ${sortBy}`}
         icon={<SortOutlined />}
-        onClick={handleSort}
+        deleteIcon={<KeyboardArrowDownOutlined />}
+        onClick={(event) => setSortAnchor(event.currentTarget)}
+        onDelete={(event) => setSortAnchor(event.currentTarget)}
         variant="outlined"
       />
+      <Menu
+        anchorEl={sortAnchor}
+        open={Boolean(sortAnchor)}
+        onClose={() => setSortAnchor(null)}
+      >
+        {sortOptions.map((option) => (
+          <MenuItem
+            key={option}
+            selected={option === sortBy}
+            onClick={() => handleSortSelect(option)}
+          >
+            {option}
+          </MenuItem>
+        ))}
+      </Menu>
     </Box>
   );
 }

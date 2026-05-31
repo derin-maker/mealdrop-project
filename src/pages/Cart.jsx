@@ -33,7 +33,7 @@ function Cart() {
 
   const handleCheckout = () => {
     if (!user) {
-      navigate("/");
+      navigate("/auth?redirect=/cart");
       return;
     }
     navigate("/payment");
@@ -153,7 +153,6 @@ function Cart() {
             size="large"
             onClick={() => {
               handleCheckout();
-              navigate("/");
             }}
             sx={{ mt: 3, py: 1.5, fontSize: "1rem" }}
           >

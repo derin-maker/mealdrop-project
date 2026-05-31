@@ -165,7 +165,7 @@ function Layout({ children }) {
           <Typography
             variant="h6"
             fontWeight={800}
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/home")}
             sx={{
               cursor: "pointer",
               color: "primary.main",

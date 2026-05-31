@@ -52,7 +52,7 @@ function OrderDetail() {
         <Typography variant="h6" fontWeight={700}>
           Order not found
         </Typography>
-        <Button variant="contained" onClick={() => navigate("/")}>
+        <Button variant="contained" onClick={() => navigate("/home")}>
           Back to Home
         </Button>
       </Box>
@@ -256,7 +256,7 @@ function OrderDetail() {
           fullWidth
           size="large"
           startIcon={<HomeOutlined />}
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/home")}
         >
           Back to Home
         </Button>
