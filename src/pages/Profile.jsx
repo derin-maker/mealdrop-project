@@ -59,14 +59,7 @@ function Profile() {
     setEditAddressOpen(false);
   };
   const [addresses, setAddresses] = useState(
-    JSON.parse(localStorage.getItem("savedAddresses")) || [
-      {
-        id: "1",
-        label: "Home",
-        address: "No 12 Adeleke Street, Bodija, Ibadan",
-      },
-      { id: "2", label: "Work", address: "Suite 4B, Challenge Plaza, Ibadan" },
-    ],
+    JSON.parse(localStorage.getItem("savedAddresses")) || [],
   );
 
   useEffect(() => {
@@ -154,7 +147,11 @@ function Profile() {
                 </Button>
               </Box>
               <Box sx={{ display: "flex", flexDirection: "column", gap: 1.5 }}>
-                {addresses.map((addr, i) => (
+                {addresses.length === 0 ? (
+                  <Typography variant="body2" color="text.secondary">
+                    No saved addresses yet
+                  </Typography>
+                ) : addresses.map((addr, i) => (
                   <Box key={addr.id}>
                     <Box
                       sx={{

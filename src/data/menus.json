@@ -1,268 +1,386 @@
 {
   "r1": [
-    {
-      "id": "m1",
-      "name": "Mega Chicken Burger",
-      "description": "Double chicken patty with lettuce, tomato and special sauce",
-      "price": 3500,
-      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300",
-      "category": "Burgers",
-      "popular": true
-    },
-    {
-      "id": "m2",
-      "name": "Chicken Suya Wrap",
-      "description": "Spiced chicken suya in a soft wrap with coleslaw",
-      "price": 2800,
-      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300",
-      "category": "Wraps",
-      "popular": false
-    },
-    {
-      "id": "m3",
-      "name": "Family Bucket",
-      "description": "12 pieces of fried chicken with 2 large sides",
-      "price": 12000,
-      "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300",
-      "category": "Buckets",
-      "popular": true
-    },
-    {
-      "id": "m4",
-      "name": "Chips & Chicken",
-      "description": "Crispy fries with 2 pieces of fried chicken",
-      "price": 2200,
-      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300",
-      "category": "Combos",
-      "popular": false
-    }
+    { "id": "m1", "name": "Mega Chicken Burger", "description": "Double chicken patty with lettuce, tomato and special sauce", "price": 3500, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m2", "name": "Chicken Suya Wrap", "description": "Spiced chicken suya in a soft wrap with coleslaw", "price": 2800, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": false },
+    { "id": "m3", "name": "Family Bucket", "description": "12 pieces of fried chicken with 2 large sides", "price": 12000, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Buckets", "popular": true },
+    { "id": "m4", "name": "Chips & Chicken", "description": "Crispy fries with 2 pieces of fried chicken", "price": 2200, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Combos", "popular": false },
+    { "id": "m4b", "name": "Spicy Chicken Sandwich", "description": "Hot and crispy chicken fillet in a toasted bun", "price": 2500, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m4c", "name": "Chicken Strips", "description": "5 crispy chicken strips with dipping sauce", "price": 2000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Snacks", "popular": false },
+    { "id": "m4d", "name": "BBQ Chicken Wings", "description": "8 glazed wings with smoky BBQ sauce", "price": 3000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Snacks", "popular": true },
+    { "id": "m4e", "name": "Chicken Rice Bowl", "description": "Seasoned rice topped with grilled chicken and gravy", "price": 2800, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Combos", "popular": false },
+    { "id": "m4f", "name": "Zinger Burger", "description": "Spicy breaded chicken with jalapeno mayo", "price": 3200, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m4g", "name": "Chicken Pepperoni Wrap", "description": "Grilled chicken with pepperoni and cheese sauce", "price": 3000, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": false }
   ],
   "r2": [
-    {
-      "id": "m5",
-      "name": "Jollof Rice + Chicken",
-      "description": "Party jollof rice with grilled chicken and fried plantain",
-      "price": 4500,
-      "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300",
-      "category": "Rice",
-      "popular": true
-    },
-    {
-      "id": "m6",
-      "name": "Egusi Soup + Eba",
-      "description": "Rich egusi soup with assorted meat and eba",
-      "price": 3800,
-      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
-      "category": "Soups",
-      "popular": true
-    },
-    {
-      "id": "m7",
-      "name": "Pepper Soup",
-      "description": "Spicy catfish pepper soup",
-      "price": 5000,
-      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300",
-      "category": "Soups",
-      "popular": false
-    }
+    { "id": "m5", "name": "Jollof Rice + Chicken", "description": "Party jollof rice with grilled chicken and fried plantain", "price": 4500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m6", "name": "Egusi Soup + Eba", "description": "Rich egusi soup with assorted meat and eba", "price": 3800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Soups", "popular": true },
+    { "id": "m7", "name": "Pepper Soup", "description": "Spicy catfish pepper soup", "price": 5000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m7b", "name": "Fried Rice + Turkey", "description": "Nigerian fried rice with grilled turkey", "price": 4800, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": true },
+    { "id": "m7c", "name": "Ofe Onugbu + Fufu", "description": "Bitter leaf soup with smooth fufu and goat meat", "price": 4000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Soups", "popular": false },
+    { "id": "m7d", "name": "Grilled Catfish", "description": "Whole catfish grilled with pepper sauce", "price": 6500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Protein", "popular": true },
+    { "id": "m7e", "name": "Pounded Yam + Okra", "description": "Smooth pounded yam with okra soup and assorted", "price": 4200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m7f", "name": "Beans Porridge", "description": "Honey beans cooked with palm oil and smoked fish", "price": 2500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": false },
+    { "id": "m7g", "name": "Asun", "description": "Spicy goat meat peppered and grilled", "price": 5500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Protein", "popular": true },
+    { "id": "m7h", "name": "Moi Moi + Ogi", "description": "Steamed bean pudding with smooth corn pap", "price": 1800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": false }
   ],
   "r3": [
-    {
-      "id": "m8",
-      "name": "Pepperoni Pizza",
-      "description": "Classic pepperoni on tomato sauce and mozzarella",
-      "price": 8500,
-      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300",
-      "category": "Pizza",
-      "popular": true
-    },
-    {
-      "id": "m9",
-      "name": "BBQ Chicken Pizza",
-      "description": "Smoky BBQ base with grilled chicken and red onions",
-      "price": 9000,
-      "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300",
-      "category": "Pizza",
-      "popular": false
-    }
+    { "id": "m8", "name": "Pepperoni Pizza", "description": "Classic pepperoni on tomato sauce and mozzarella", "price": 8500, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": true },
+    { "id": "m9", "name": "BBQ Chicken Pizza", "description": "Smoky BBQ base with grilled chicken and red onions", "price": 9000, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": false },
+    { "id": "m9b", "name": "Margherita Pizza", "description": "Classic tomato, mozzarella and fresh basil", "price": 7500, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": true },
+    { "id": "m9c", "name": "Four Cheese Pizza", "description": "Mozzarella, cheddar, parmesan and blue cheese", "price": 10000, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": false },
+    { "id": "m9d", "name": "Chicken Wings", "description": "8 crispy wings with hot sauce", "price": 4500, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Sides", "popular": true },
+    { "id": "m9e", "name": "Garlic Bread", "description": "Toasted bread with garlic butter and herbs", "price": 2500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m9f", "name": "Pasta Bolognese", "description": "Spaghetti with rich beef and tomato sauce", "price": 6500, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Pasta", "popular": true },
+    { "id": "m9g", "name": "Creamy Chicken Pasta", "description": "Penne in a rich chicken and mushroom cream sauce", "price": 7000, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Pasta", "popular": false },
+    { "id": "m9h", "name": "Caesar Salad", "description": "Romaine lettuce, croutons, parmesan and Caesar dressing", "price": 4000, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Sides", "popular": false },
+    { "id": "m9i", "name": "Chocolate Lava Cake", "description": "Warm chocolate cake with molten centre and ice cream", "price": 3500, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": true }
   ],
   "r4": [
-    {
-      "id": "m10",
-      "name": "Amala & Ewedu",
-      "description": "Soft amala with ewedu soup and assorted beef",
-      "price": 2500,
-      "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300",
-      "category": "Swallows",
-      "popular": true
-    },
-    {
-      "id": "m11",
-      "name": "Fried Rice + Turkey",
-      "description": "Nigerian fried rice with grilled turkey",
-      "price": 3200,
-      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300",
-      "category": "Rice",
-      "popular": true
-    }
+    { "id": "m10", "name": "Amala & Ewedu", "description": "Soft amala with ewedu soup and assorted beef", "price": 2500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Swallows", "popular": true },
+    { "id": "m11", "name": "Fried Rice + Turkey", "description": "Nigerian fried rice with grilled turkey", "price": 3200, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": true },
+    { "id": "m11b", "name": "Jollof Rice + Fish", "description": "Smoky jollof rice with fried tilapia", "price": 3000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m11c", "name": "Egusi + Semo", "description": "Thick egusi soup with smooth semolina", "price": 2800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m11d", "name": "Oha Soup + Pounded Yam", "description": "Oha leaf soup with smooth pounded yam", "price": 3000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m11e", "name": "Catfish Stew + Rice", "description": "Spicy catfish stew with steamed white rice", "price": 3500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Rice", "popular": false },
+    { "id": "m11f", "name": "Goat Meat Pepper Soup", "description": "Tender goat meat in spiced pepper broth", "price": 4000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m11g", "name": "Moimoi + Akamu", "description": "Steamed bean pudding with smooth corn pap", "price": 1500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": false },
+    { "id": "m11h", "name": "Ewa Agoyin + Agege Bread", "description": "Soft mashed beans with spicy pepper sauce and bread", "price": 1200, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": true },
+    { "id": "m11i", "name": "Banga Soup + Starch", "description": "Palm nut soup with starch and dried fish", "price": 3200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false }
   ],
   "r5": [
-    {
-      "id": "m12",
-      "name": "Grilled Lobster",
-      "description": "Fresh Atlantic lobster with herb butter and seasonal vegetables",
-      "price": 35000,
-      "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300",
-      "category": "Seafood",
-      "popular": true
-    },
-    {
-      "id": "m13",
-      "name": "Wagyu Beef Tenderloin",
-      "description": "Premium wagyu with truffle mash and red wine jus",
-      "price": 45000,
-      "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=300",
-      "category": "Mains",
-      "popular": false
-    }
+    { "id": "m12", "name": "Grilled Lobster", "description": "Fresh Atlantic lobster with herb butter and seasonal vegetables", "price": 35000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m13", "name": "Wagyu Beef Tenderloin", "description": "Premium wagyu with truffle mash and red wine jus", "price": 45000, "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=300", "category": "Mains", "popular": false },
+    { "id": "m13b", "name": "Pan Seared Salmon", "description": "Norwegian salmon with asparagus and lemon butter sauce", "price": 28000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m13c", "name": "Duck Confit", "description": "Slow cooked duck leg with cherry reduction and roasted potatoes", "price": 32000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Mains", "popular": false },
+    { "id": "m13d", "name": "Burrata Salad", "description": "Creamy burrata with heirloom tomatoes and basil oil", "price": 18000, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Starters", "popular": true },
+    { "id": "m13e", "name": "Foie Gras Torchon", "description": "Chilled foie gras with brioche and fig jam", "price": 25000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Starters", "popular": false },
+    { "id": "m13f", "name": "Prawn Bisque", "description": "Velvety prawn soup with cream and cognac", "price": 15000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m13g", "name": "Rack of Lamb", "description": "Herb crusted lamb rack with minted pea puree", "price": 42000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Mains", "popular": true },
+    { "id": "m13h", "name": "Creme Brulee", "description": "Classic vanilla custard with caramelised sugar crust", "price": 12000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": true },
+    { "id": "m13i", "name": "Chocolate Fondant", "description": "Warm dark chocolate cake with vanilla ice cream", "price": 10000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": false }
   ],
   "r6": [
-    {
-      "id": "m14",
-      "name": "Suya Platter",
-      "description": "Mixed meat suya with spicy yaji and fresh tomatoes",
-      "price": 4000,
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
-      "category": "Grills",
-      "popular": true
-    },
-    {
-      "id": "m15",
-      "name": "Pounded Yam & Oha Soup",
-      "description": "Smooth pounded yam with rich oha soup and goat meat",
-      "price": 3500,
-      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
-      "category": "Swallows",
-      "popular": false
-    }],
-    "r7": [
-  {
-    "id": "m16",
-    "name": "Chicken Combo Meal",
-    "description": "3 pieces of fried chicken with fries and a drink",
-    "price": 3200,
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300",
-    "category": "Combos",
-    "popular": true
-  },
-  {
-    "id": "m17",
-    "name": "Spicy Wings",
-    "description": "10 pieces of crispy spiced chicken wings",
-    "price": 2800,
-    "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300",
-    "category": "Chicken",
-    "popular": false
-  }
-],
-"r8": [
-  {
-    "id": "m18",
-    "name": "Beans & Plantain",
-    "description": "Honey beans with fried plantain and palm oil",
-    "price": 1200,
-    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
-    "category": "Swallows",
-    "popular": true
-  },
-  {
-    "id": "m19",
-    "name": "White Rice & Stew",
-    "description": "Steamed white rice with rich tomato stew and assorted meat",
-    "price": 1500,
-    "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300",
-    "category": "Rice",
-    "popular": true
-  }
-],
-"r9": [
-  {
-    "id": "m20",
-    "name": "Grilled Tilapia",
-    "description": "Fresh tilapia grilled with herbs and spices, served with chips",
-    "price": 6500,
-    "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300",
-    "category": "Seafood",
-    "popular": true
-  },
-  {
-    "id": "m21",
-    "name": "Prawn Stir Fry",
-    "description": "Jumbo prawns stir fried with vegetables in garlic butter",
-    "price": 8000,
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300",
-    "category": "Seafood",
-    "popular": false
-  }
-],
-"r10": [
-  {
-    "id": "m22",
-    "name": "Beef Suya",
-    "description": "Thinly sliced beef marinated in spiced yaji and grilled",
-    "price": 3000,
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
-    "category": "Grills",
-    "popular": true
-  },
-  {
-    "id": "m23",
-    "name": "Chicken Suya",
-    "description": "Tender chicken pieces in suya spice on skewers",
-    "price": 2500,
-    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300",
-    "category": "Grills",
-    "popular": true
-  }
-],
-"r11": [
-  {
-    "id": "m24",
-    "name": "Four Cheese Pizza",
-    "description": "Mozzarella, cheddar, parmesan and gouda on tomato base",
-    "price": 7500,
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300",
-    "category": "Pizza",
-    "popular": true
-  },
-  {
-    "id": "m25",
-    "name": "Veggie Supreme",
-    "description": "Loaded with bell peppers, mushrooms, olives and onions",
-    "price": 6500,
-    "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300",
-    "category": "Pizza",
-    "popular": false
-  }
-],
-"r12": [
-  {
-    "id": "m26",
-    "name": "Ofada Rice & Stew",
-    "description": "Local ofada rice with designer stew and assorted offals",
-    "price": 3500,
-    "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300",
-    "category": "Rice",
-    "popular": true
-  },
-  {
-    "id": "m27",
-    "name": "Banga Soup & Starch",
-    "description": "Delta-style banga soup with soft starch and dried fish",
-    "price": 4000,
-    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300",
-    "category": "Soups",
-    "popular": false
-  }
-] 
+    { "id": "m14", "name": "Suya Platter", "description": "Mixed meat suya with spicy yaji and fresh tomatoes", "price": 4000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m15", "name": "Pounded Yam & Oha Soup", "description": "Smooth pounded yam with rich oha soup and goat meat", "price": 3500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m15b", "name": "Jollof Rice + Chicken", "description": "Smoky jollof rice with fried chicken", "price": 3800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m15c", "name": "Beef Pepper Soup", "description": "Tender beef in spiced pepper broth", "price": 4500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m15d", "name": "Grilled Tilapia", "description": "Fresh tilapia grilled with pepper sauce", "price": 5500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Grills", "popular": true },
+    { "id": "m15e", "name": "Amala + Gbegiri", "description": "Soft amala with gbegiri and ewedu soup", "price": 2800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Swallows", "popular": false },
+    { "id": "m15f", "name": "Asun", "description": "Peppered goat meat, spicy and smoky", "price": 5000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m15g", "name": "Egusi Soup + Fufu", "description": "Rich egusi with smooth fufu and assorted meat", "price": 3200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m15h", "name": "Fried Yam + Pepper Sauce", "description": "Crispy fried yam with spicy pepper dipping sauce", "price": 1800, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": true },
+    { "id": "m15i", "name": "Chicken Pepper Soup", "description": "Whole chicken pieces in spiced pepper broth", "price": 4000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false }
+  ],
+  "r7": [
+    { "id": "m16", "name": "Chicken Combo Meal", "description": "3 pieces of fried chicken with fries and a drink", "price": 3200, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Combos", "popular": true },
+    { "id": "m17", "name": "Spicy Wings", "description": "10 pieces of crispy spiced chicken wings", "price": 2800, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": false },
+    { "id": "m17b", "name": "Chicken Burger", "description": "Crispy chicken fillet in a soft bun with lettuce", "price": 2500, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m17c", "name": "Chicken Rice", "description": "Seasoned rice with 2 pieces of fried chicken", "price": 2200, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Combos", "popular": false },
+    { "id": "m17d", "name": "Peppered Chicken", "description": "Fried chicken tossed in hot pepper sauce", "price": 3000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": true },
+    { "id": "m17e", "name": "Chips & Coleslaw", "description": "Golden fries with creamy coleslaw", "price": 1200, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m17f", "name": "Chicken Wrap", "description": "Grilled chicken in a soft tortilla with mayo", "price": 2800, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": true },
+    { "id": "m17g", "name": "Family Pack", "description": "8 pieces chicken, large fries and 4 drinks", "price": 9500, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Combos", "popular": true },
+    { "id": "m17h", "name": "BBQ Wings", "description": "8 wings glazed in smoky BBQ sauce", "price": 2600, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": false },
+    { "id": "m17i", "name": "Chicken Nuggets", "description": "12 crispy nuggets with sweet and sour sauce", "price": 2000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Snacks", "popular": false }
+  ],
+  "r8": [
+    { "id": "m18", "name": "Beans & Plantain", "description": "Honey beans with fried plantain and palm oil", "price": 1200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Specials", "popular": true },
+    { "id": "m19", "name": "White Rice & Stew", "description": "Steamed white rice with rich tomato stew and assorted meat", "price": 1500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m19b", "name": "Amala & Ewedu", "description": "Soft amala with ewedu and gbegiri soup", "price": 1800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Swallows", "popular": false },
+    { "id": "m19c", "name": "Jollof Rice + Chicken", "description": "Smoky jollof rice with a piece of fried chicken", "price": 2000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m19d", "name": "Egusi Soup + Eba", "description": "Egusi soup with smooth eba and beef", "price": 1800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m19e", "name": "Ewa Agoyin", "description": "Mashed beans with special agoin pepper sauce", "price": 1000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": true },
+    { "id": "m19f", "name": "Moimoi + Fish", "description": "Bean pudding with smoked fish inside", "price": 1200, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": false },
+    { "id": "m19g", "name": "Catfish Pepper Soup", "description": "Freshwater catfish in spiced pepper broth", "price": 3000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m19h", "name": "Fried Yam", "description": "Crispy fried yam with pepper sauce", "price": 1000, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Specials", "popular": false },
+    { "id": "m19i", "name": "Pounded Yam + Okra", "description": "Smooth pounded yam with okra soup", "price": 2200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false }
+  ],
+  "r9": [
+    { "id": "m20", "name": "Grilled Tilapia", "description": "Fresh tilapia grilled with herbs and spices, served with chips", "price": 6500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m21", "name": "Prawn Stir Fry", "description": "Jumbo prawns stir fried with vegetables in garlic butter", "price": 8000, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Seafood", "popular": false },
+    { "id": "m21b", "name": "Lobster Thermidor", "description": "Half lobster baked with cream and gruyere cheese", "price": 18000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m21c", "name": "Seafood Platter", "description": "Prawns, calamari, fish and mussels with dipping sauces", "price": 22000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Platters", "popular": true },
+    { "id": "m21d", "name": "Calamari", "description": "Crispy fried squid rings with lemon aioli", "price": 5500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": false },
+    { "id": "m21e", "name": "Fish Pepper Soup", "description": "Fresh fish in spiced pepper broth", "price": 5000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m21f", "name": "Grilled Salmon", "description": "Atlantic salmon with lemon butter and vegetables", "price": 12000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m21g", "name": "Prawn Cocktail", "description": "Chilled prawns with marie rose sauce and lettuce", "price": 6000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": false },
+    { "id": "m21h", "name": "Chips & Fish", "description": "Battered fish fillet with golden chips", "price": 5500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Mains", "popular": true },
+    { "id": "m21i", "name": "Crab Cakes", "description": "Pan fried crab cakes with sweet chilli sauce", "price": 7500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": false }
+  ],
+  "r10": [
+    { "id": "m22", "name": "Beef Suya", "description": "Thinly sliced beef marinated in spiced yaji and grilled", "price": 3000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m23", "name": "Chicken Suya", "description": "Tender chicken pieces in suya spice on skewers", "price": 2500, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Grills", "popular": true },
+    { "id": "m23b", "name": "Ram Suya", "description": "Juicy ram meat in suya spice, grilled to perfection", "price": 3500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": false },
+    { "id": "m23c", "name": "Mixed Suya Platter", "description": "Beef, chicken and ram suya with onions and tomatoes", "price": 6000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Platters", "popular": true },
+    { "id": "m23d", "name": "Grilled Catfish", "description": "Whole catfish grilled with suya spice", "price": 5000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Grills", "popular": false },
+    { "id": "m23e", "name": "Asun", "description": "Peppered goat meat, smoky and spicy", "price": 4500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m23f", "name": "Kidney Suya", "description": "Beef kidney grilled with yaji spice", "price": 2000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": false },
+    { "id": "m23g", "name": "Liver Suya", "description": "Spiced beef liver grilled on open flame", "price": 2000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": false },
+    { "id": "m23h", "name": "Gizzard Suya", "description": "Chewy gizzard pieces in suya spice", "price": 2500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m23i", "name": "Suya Rice", "description": "Jollof rice served with suya beef strips on top", "price": 3500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Combos", "popular": false }
+  ],
+  "r11": [
+    { "id": "m24", "name": "Four Cheese Pizza", "description": "Mozzarella, cheddar, parmesan and gouda on tomato base", "price": 7500, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": true },
+    { "id": "m25", "name": "Veggie Supreme", "description": "Loaded with bell peppers, mushrooms, olives and onions", "price": 6500, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": false },
+    { "id": "m25b", "name": "Pepperoni Pizza", "description": "Classic pepperoni on rich tomato sauce", "price": 7000, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": true },
+    { "id": "m25c", "name": "BBQ Meat Feast", "description": "Beef, chicken, pepperoni and BBQ sauce", "price": 9000, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": true },
+    { "id": "m25d", "name": "Hawaiian Pizza", "description": "Ham and pineapple on tomato sauce", "price": 6500, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": false },
+    { "id": "m25e", "name": "Garlic Bread", "description": "Toasted baguette with garlic butter", "price": 2000, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m25f", "name": "Chicken Wings", "description": "8 crispy wings with hot sauce", "price": 4000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Sides", "popular": true },
+    { "id": "m25g", "name": "Onion Rings", "description": "Crispy battered onion rings with ranch dip", "price": 2500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m25h", "name": "Chocolate Brownie", "description": "Warm chocolate brownie with vanilla ice cream", "price": 3000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": true },
+    { "id": "m25i", "name": "Cheesecake", "description": "New York style baked cheesecake with berry compote", "price": 3500, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": false }
+  ],
+  "r12": [
+    { "id": "m26", "name": "Ofada Rice & Stew", "description": "Local ofada rice with designer stew and assorted offals", "price": 3500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m27", "name": "Banga Soup & Starch", "description": "Delta-style banga soup with soft starch and dried fish", "price": 4000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Soups", "popular": false },
+    { "id": "m27b", "name": "Jollof Rice + Goat Meat", "description": "Smoky jollof rice with peppered goat meat", "price": 4500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m27c", "name": "Efo Riro + Pounded Yam", "description": "Rich spinach stew with smooth pounded yam", "price": 3800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m27d", "name": "Edikaikong + Fufu", "description": "Vegetable soup with periwinkle and fufu", "price": 4200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m27e", "name": "Fried Plantain + Chicken", "description": "Ripe fried plantain with grilled chicken", "price": 2800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": true },
+    { "id": "m27f", "name": "Abacha Salad", "description": "African salsa with ugba, garden eggs and palm oil", "price": 2500, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Specials", "popular": false },
+    { "id": "m27g", "name": "Catfish Pepper Soup", "description": "Fresh catfish in spiced pepper broth", "price": 5000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m27h", "name": "Semolina + Egusi", "description": "Smooth semolina with rich egusi soup", "price": 3500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m27i", "name": "Oha Soup + Garri", "description": "Oha leaf soup with crispy eba", "price": 3200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false }
+  ],
+  "r13": [
+    { "id": "m28a", "name": "Beef Pie", "description": "Flaky pastry filled with spiced minced beef", "price": 800, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": true },
+    { "id": "m28b", "name": "Chicken Pie", "description": "Buttery pastry with chicken and vegetable filling", "price": 800, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": true },
+    { "id": "m28c", "name": "Sausage Roll", "description": "Flaky pastry wrapped around seasoned sausage", "price": 600, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": false },
+    { "id": "m28d", "name": "Chicken Burger", "description": "Crispy chicken in a soft sesame bun", "price": 2200, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m28e", "name": "Fried Chicken + Chips", "description": "2 pieces fried chicken with golden fries", "price": 2500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Combos", "popular": true },
+    { "id": "m28f", "name": "Jollof Rice + Chicken", "description": "Nigerian jollof rice with fried chicken", "price": 2800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m28g", "name": "Chin Chin", "description": "Crunchy fried dough snack lightly sweetened", "price": 500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": false },
+    { "id": "m28h", "name": "Puff Puff", "description": "Soft deep fried dough balls", "price": 500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": true },
+    { "id": "m28i", "name": "Fish Pie", "description": "Pastry filled with spiced fish and vegetables", "price": 900, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": false },
+    { "id": "m28j", "name": "Family Pack Meal", "description": "6 pieces chicken, large fries and 3 soft drinks", "price": 7500, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Combos", "popular": true }
+  ],
+  "r14": [
+    { "id": "m29a", "name": "Pepper Soup", "description": "Assorted meat in spiced pepper broth", "price": 5500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m29b", "name": "Jollof Rice + Grilled Chicken", "description": "Smoky jollof with marinated grilled chicken", "price": 5000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m29c", "name": "Nkwobi", "description": "Spiced cow foot in palm oil sauce", "price": 6500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Specials", "popular": false },
+    { "id": "m29d", "name": "Isi Ewu", "description": "Spiced goat head in palm oil", "price": 7000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Specials", "popular": true },
+    { "id": "m29e", "name": "Ofe Akwu + Fufu", "description": "Palm nut soup with smooth fufu", "price": 4500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m29f", "name": "Egusi + Pounded Yam", "description": "Rich egusi soup with smooth pounded yam", "price": 4000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m29g", "name": "Fried Rice + Turkey", "description": "Nigerian fried rice with grilled turkey", "price": 5500, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": false },
+    { "id": "m29h", "name": "Catfish Pepper Soup", "description": "Fresh catfish in spicy pepper broth", "price": 6000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m29i", "name": "Oha Soup + Eba", "description": "Oha leaf soup with crispy eba", "price": 4200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m29j", "name": "Asun + Drinks", "description": "Peppered goat meat with a chilled drink", "price": 6500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Specials", "popular": false }
+  ],
+  "r15": [
+    { "id": "m30a", "name": "Jollof Rice + Chicken", "description": "Party jollof with crispy fried chicken", "price": 4000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m30b", "name": "Pounded Yam + Egusi", "description": "Smooth pounded yam with assorted egusi soup", "price": 3500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m30c", "name": "Fried Rice + Goat Meat", "description": "Seasoned fried rice with peppered goat meat", "price": 4500, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": false },
+    { "id": "m30d", "name": "Pepper Soup", "description": "Assorted meat pepper soup", "price": 4500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m30e", "name": "Ofada + Stew", "description": "Local ofada rice with designer stew", "price": 3800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m30f", "name": "Amala + Abula", "description": "Soft amala with mixed gbegiri and ewedu soup", "price": 3000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Swallows", "popular": true },
+    { "id": "m30g", "name": "Grilled Fish + Plantain", "description": "Whole grilled tilapia with fried ripe plantain", "price": 6000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Specials", "popular": false },
+    { "id": "m30h", "name": "Efo Riro + Eba", "description": "Rich spinach stew with eba", "price": 3200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m30i", "name": "Catfish Stew + Rice", "description": "Spicy catfish stew with white rice", "price": 4000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m30j", "name": "Chocolate Cake Slice", "description": "Moist chocolate cake with butter frosting", "price": 2000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": false }
+  ],
+  "r16": [
+    { "id": "m31a", "name": "Peri Peri Chicken Half", "description": "Half chicken marinated in peri peri and grilled", "price": 7500, "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=300", "category": "Chicken", "popular": true },
+    { "id": "m31b", "name": "Peri Peri Chicken Full", "description": "Whole chicken in peri peri marinade, chargrilled", "price": 14000, "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=300", "category": "Chicken", "popular": true },
+    { "id": "m31c", "name": "Chicken Wings", "description": "8 peri peri wings with garlic sauce", "price": 5000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": false },
+    { "id": "m31d", "name": "Chicken Burger", "description": "Chargrilled chicken in a toasted bun with peri sauce", "price": 4500, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m31e", "name": "Grilled Prawn Skewers", "description": "Jumbo prawns grilled with garlic and herb butter", "price": 9000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m31f", "name": "Coleslaw", "description": "Creamy house made coleslaw", "price": 1500, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Sides", "popular": false },
+    { "id": "m31g", "name": "Spicy Rice", "description": "Seasoned rice cooked in peri peri sauce", "price": 2500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Sides", "popular": true },
+    { "id": "m31h", "name": "Corn on the Cob", "description": "Grilled corn with peri butter", "price": 1500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m31i", "name": "Chicken Strips", "description": "Crispy peri peri chicken strips with dip", "price": 4000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": true },
+    { "id": "m31j", "name": "Family Feast", "description": "Full chicken, 4 sides and 4 drinks", "price": 22000, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Combos", "popular": false }
+  ],
+  "r17": [
+    { "id": "m32a", "name": "Triple Decker Pizza", "description": "Three layers of toppings on a thick base", "price": 9500, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=300", "category": "Pizza", "popular": true },
+    { "id": "m32b", "name": "Chicken Tikka Pizza", "description": "Spiced chicken tikka with mozzarella", "price": 8500, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": false },
+    { "id": "m32c", "name": "The Meaty One", "description": "Loaded with beef, pepperoni and bacon", "price": 10000, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=300", "category": "Pizza", "popular": true },
+    { "id": "m32d", "name": "Veggie Delight", "description": "Roasted vegetables, olives and feta cheese", "price": 7000, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": false },
+    { "id": "m32e", "name": "Cheesy Garlic Bread", "description": "Thick bread with garlic butter and melted mozzarella", "price": 3000, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": true },
+    { "id": "m32f", "name": "Chicken Wings", "description": "6 crispy wings with hot sauce", "price": 3800, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Sides", "popular": false },
+    { "id": "m32g", "name": "Loaded Fries", "description": "Fries topped with cheese sauce and pepperoni", "price": 3500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": true },
+    { "id": "m32h", "name": "Pizza + Wings Combo", "description": "Medium pizza and 6 wings", "price": 11000, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=300", "category": "Combos", "popular": true },
+    { "id": "m32i", "name": "Ice Cream Sundae", "description": "Vanilla ice cream with chocolate sauce and wafer", "price": 2500, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": false },
+    { "id": "m32j", "name": "Margherita Pizza", "description": "Simple tomato sauce with fresh mozzarella", "price": 7000, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": false }
+  ],
+  "r18": [
+    { "id": "m33a", "name": "Jollof Rice + Fish", "description": "Nigerian jollof rice with fried tilapia", "price": 2500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m33b", "name": "Eba + Okra Soup", "description": "Smooth eba with okra soup and beef", "price": 2000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m33c", "name": "Fried Rice + Turkey", "description": "Seasoned fried rice with grilled turkey", "price": 3000, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": true },
+    { "id": "m33d", "name": "Pounded Yam + Egusi", "description": "Smooth pounded yam with egusi soup", "price": 2800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m33e", "name": "Beans + Plantain", "description": "Honey beans with fried ripe plantain", "price": 1500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Specials", "popular": true },
+    { "id": "m33f", "name": "Goat Meat Stew + Rice", "description": "Rich goat meat stew with white rice", "price": 3200, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m33g", "name": "Beef Pepper Soup", "description": "Tender beef in spiced pepper broth", "price": 3500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m33h", "name": "Akara + Pap", "description": "Crispy bean cakes with smooth corn pap", "price": 1200, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Breakfast", "popular": true },
+    { "id": "m33i", "name": "Semolina + Vegetable Soup", "description": "Smooth semolina with mixed vegetable soup", "price": 2500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m33j", "name": "Fried Yam + Egg Sauce", "description": "Crispy fried yam with pepper egg sauce", "price": 1800, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Breakfast", "popular": false }
+  ],
+  "r19": [
+    { "id": "m34a", "name": "T-Bone Steak", "description": "500g T-bone with roasted potatoes and pepper sauce", "price": 18000, "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=300", "category": "Steaks", "popular": true },
+    { "id": "m34b", "name": "Ribeye Steak", "description": "400g ribeye cooked to your preference", "price": 22000, "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=300", "category": "Steaks", "popular": true },
+    { "id": "m34c", "name": "Mixed Grill Platter", "description": "Beef, chicken, lamb and sausages with sides", "price": 25000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Platters", "popular": true },
+    { "id": "m34d", "name": "Grilled Chicken", "description": "Half chicken marinated and chargrilled", "price": 9000, "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=300", "category": "Chicken", "popular": false },
+    { "id": "m34e", "name": "Lamb Chops", "description": "3 grilled lamb chops with mint jelly", "price": 16000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": false },
+    { "id": "m34f", "name": "Beef Skewers", "description": "Spiced beef cubes on skewers with chimichurri", "price": 8500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m34g", "name": "Grilled Corn", "description": "Charcoal grilled corn with herb butter", "price": 2000, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m34h", "name": "Loaded Potato Skins", "description": "Crispy skins with cheese, bacon and sour cream", "price": 4500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": true },
+    { "id": "m34i", "name": "Grilled Prawns", "description": "Jumbo prawns with garlic and herb butter", "price": 12000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m34j", "name": "Smoked Brisket", "description": "Slow smoked beef brisket with BBQ sauce", "price": 20000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Steaks", "popular": false }
+  ],
+  "r20": [
+    { "id": "m35a", "name": "Original Recipe Chicken", "description": "2 pieces of KFC original recipe fried chicken", "price": 3500, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Chicken", "popular": true },
+    { "id": "m35b", "name": "Zinger Burger", "description": "Spicy crispy chicken fillet in a toasted bun", "price": 3800, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m35c", "name": "Twister Wrap", "description": "Crispy chicken, lettuce and mayo in a tortilla", "price": 3200, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": false },
+    { "id": "m35d", "name": "Bucket Meal", "description": "6 pieces chicken with 2 large chips and 3 drinks", "price": 12000, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Combos", "popular": true },
+    { "id": "m35e", "name": "Hot Wings", "description": "8 spicy crispy chicken wings", "price": 4000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": true },
+    { "id": "m35f", "name": "Popcorn Chicken", "description": "Bite sized crispy chicken pieces", "price": 2500, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Snacks", "popular": false },
+    { "id": "m35g", "name": "Large Fries", "description": "Golden crispy fries lightly salted", "price": 1500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m35h", "name": "Coleslaw", "description": "Creamy KFC signature coleslaw", "price": 1000, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Sides", "popular": false },
+    { "id": "m35i", "name": "Rice Box", "description": "Seasoned rice with a piece of chicken", "price": 2800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Combos", "popular": true },
+    { "id": "m35j", "name": "Boneless Strips", "description": "5 crispy boneless chicken strips with dip", "price": 3000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": false }
+  ],
+  "r21": [
+    { "id": "m36a", "name": "Grilled Sea Bass", "description": "Whole sea bass grilled with herbs and lemon", "price": 14000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m36b", "name": "King Prawn Curry", "description": "Jumbo prawns in a rich coconut curry sauce", "price": 12000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m36c", "name": "Smoked Salmon Starter", "description": "Cold smoked salmon with capers and cream cheese", "price": 8000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": true },
+    { "id": "m36d", "name": "Clam Chowder", "description": "Creamy New England clam chowder with bread", "price": 6500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m36e", "name": "Whole Lobster", "description": "Fresh lobster steamed and served with butter", "price": 30000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m36f", "name": "Calamari Rings", "description": "Crispy squid rings with tartare sauce", "price": 6000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": false },
+    { "id": "m36g", "name": "Seafood Pasta", "description": "Linguine with prawns, mussels and clams in white wine", "price": 11000, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Pasta", "popular": true },
+    { "id": "m36h", "name": "Fish & Chips", "description": "Battered cod with thick cut chips and mushy peas", "price": 8500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Mains", "popular": false },
+    { "id": "m36i", "name": "Grilled Octopus", "description": "Tender octopus with chimichurri and lemon", "price": 15000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m36j", "name": "Oysters Half Dozen", "description": "Fresh oysters with mignonette sauce", "price": 18000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": true }
+  ],
+  "r22": [
+    { "id": "m37a", "name": "Chicken Burger", "description": "Crispy chicken in a toasted sesame bun", "price": 2000, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m37b", "name": "Fried Chicken + Chips", "description": "2 pieces fried chicken with golden fries", "price": 2200, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Combos", "popular": true },
+    { "id": "m37c", "name": "Chicken Pie", "description": "Flaky pastry with chicken filling", "price": 700, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": false },
+    { "id": "m37d", "name": "Jollof Rice + Chicken", "description": "Nigerian jollof with fried chicken", "price": 2500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m37e", "name": "Puff Puff", "description": "Soft deep fried dough balls, lightly sweetened", "price": 500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": true },
+    { "id": "m37f", "name": "Sausage Roll", "description": "Flaky pastry wrapped around beef sausage", "price": 600, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": false },
+    { "id": "m37g", "name": "Chicken Wings", "description": "6 spicy wings with dip", "price": 2500, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": true },
+    { "id": "m37h", "name": "Meatpie", "description": "Classic meatpie with spiced minced beef", "price": 700, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": true },
+    { "id": "m37i", "name": "Fried Rice + Turkey", "description": "Seasoned fried rice with turkey", "price": 2800, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": false },
+    { "id": "m37j", "name": "Family Combo", "description": "4 pieces chicken, chips and 2 drinks", "price": 6500, "image": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=300", "category": "Combos", "popular": false }
+  ],
+  "r23": [
+    { "id": "m38a", "name": "Peppered Beef Skewers", "description": "Spiced beef cubes grilled over charcoal", "price": 4500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m38b", "name": "Chicken Suya", "description": "Chicken strips in spiced yaji, charcoal grilled", "price": 3500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m38c", "name": "Mixed Grill", "description": "Beef, chicken and prawns with sides", "price": 12000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Platters", "popular": true },
+    { "id": "m38d", "name": "Grilled Whole Chicken", "description": "Charcoal grilled chicken with pepper sauce", "price": 8500, "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=300", "category": "Chicken", "popular": false },
+    { "id": "m38e", "name": "Asun", "description": "Smoky peppered goat meat", "price": 5500, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": false },
+    { "id": "m38f", "name": "Grilled Catfish", "description": "Fresh catfish grilled with spice rub", "price": 6000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m38g", "name": "Corn on the Cob", "description": "Grilled sweetcorn with herb butter", "price": 1500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m38h", "name": "Plantain + Chicken", "description": "Grilled ripe plantain with spiced chicken", "price": 4000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Combos", "popular": true },
+    { "id": "m38i", "name": "Goat Meat Pepper Soup", "description": "Tender goat meat in spiced broth", "price": 5000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m38j", "name": "Suya Rice Bowl", "description": "Jollof rice topped with suya beef strips", "price": 4500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Combos", "popular": false }
+  ],
+  "r24": [
+    { "id": "m39a", "name": "Oregano Special Pizza", "description": "House special with mixed meats and vegetables", "price": 9500, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": true },
+    { "id": "m39b", "name": "Pepperoni Pizza", "description": "Classic pepperoni with extra mozzarella", "price": 8000, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": true },
+    { "id": "m39c", "name": "Buffalo Chicken Pizza", "description": "Spicy buffalo chicken with blue cheese drizzle", "price": 9000, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": false },
+    { "id": "m39d", "name": "Truffle Pizza", "description": "Mushrooms, truffle oil and parmesan on white base", "price": 11000, "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=300", "category": "Pizza", "popular": false },
+    { "id": "m39e", "name": "Margherita", "description": "Tomato, mozzarella and fresh basil", "price": 7000, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", "category": "Pizza", "popular": true },
+    { "id": "m39f", "name": "Pasta Carbonara", "description": "Spaghetti with creamy egg and bacon sauce", "price": 7500, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Pasta", "popular": true },
+    { "id": "m39g", "name": "Caesar Salad", "description": "Romaine, croutons, parmesan and caesar dressing", "price": 4500, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Salads", "popular": false },
+    { "id": "m39h", "name": "Bruschetta", "description": "Toasted bread with tomatoes, garlic and basil", "price": 3000, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Starters", "popular": false },
+    { "id": "m39i", "name": "Tiramisu", "description": "Classic Italian coffee dessert", "price": 4000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": true },
+    { "id": "m39j", "name": "Panna Cotta", "description": "Vanilla cream with berry coulis", "price": 3500, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": false }
+  ],
+  "r25": [
+    { "id": "m40a", "name": "Banga Soup + Fufu", "description": "Palm nut soup with smooth fufu and dried fish", "price": 4000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m40b", "name": "Edikaikong + Garri", "description": "Vegetable soup with periwinkle and crispy eba", "price": 4200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m40c", "name": "Afang Soup + Starch", "description": "Afang leaves and waterleaf soup with starch", "price": 4500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m40d", "name": "Native Jollof Rice", "description": "Smoky native jollof with dried fish and crayfish", "price": 3800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m40e", "name": "Catfish Pepper Soup", "description": "Fresh catfish in spiced pepper broth", "price": 5500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": false },
+    { "id": "m40f", "name": "Abacha + Ugba", "description": "Shredded cassava with oil bean and palm oil", "price": 2500, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Specials", "popular": false },
+    { "id": "m40g", "name": "Ofe Onugbu + Eba", "description": "Bitter leaf soup with eba and assorted meat", "price": 3800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": true },
+    { "id": "m40h", "name": "Nkwobi", "description": "Cow foot in spiced palm oil sauce", "price": 6000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Specials", "popular": true },
+    { "id": "m40i", "name": "White Soup + Pounded Yam", "description": "Creamy ofe nsala with smooth pounded yam", "price": 4500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m40j", "name": "Isi Ewu", "description": "Goat head in spiced palm oil", "price": 7000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Specials", "popular": false }
+  ],
+  "r26": [
+    { "id": "m41a", "name": "Grilled Lobster", "description": "Whole lobster grilled with herb butter", "price": 40000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m41b", "name": "Wagyu Steak", "description": "200g A5 wagyu with truffle butter", "price": 55000, "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=300", "category": "Steaks", "popular": true },
+    { "id": "m41c", "name": "Tuna Tataki", "description": "Seared yellowfin tuna with ponzu and sesame", "price": 22000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": false },
+    { "id": "m41d", "name": "Burrata & Tomato", "description": "Fresh burrata with heritage tomatoes and basil oil", "price": 18000, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Starters", "popular": true },
+    { "id": "m41e", "name": "Duck Breast", "description": "Pan seared duck with cherry jus and roasted beets", "price": 38000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Mains", "popular": false },
+    { "id": "m41f", "name": "Lamb Rack", "description": "Herb crusted lamb with dauphinoise potatoes", "price": 45000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Mains", "popular": false },
+    { "id": "m41g", "name": "Mushroom Risotto", "description": "Arborio rice with wild mushrooms and parmesan", "price": 20000, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Mains", "popular": true },
+    { "id": "m41h", "name": "Chocolate Souffle", "description": "Hot chocolate souffle with creme anglaise", "price": 12000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Desserts", "popular": true },
+    { "id": "m41i", "name": "Cheese Board", "description": "Selection of aged cheeses with crackers and fruit", "price": 25000, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Desserts", "popular": false },
+    { "id": "m41j", "name": "Surf & Turf", "description": "Fillet steak with grilled lobster tail", "price": 65000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Mains", "popular": true }
+  ],
+  "r27": [
+    { "id": "m42a", "name": "Jollof Rice + Fried Fish", "description": "Smoky jollof rice with crispy fried tilapia", "price": 1500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m42b", "name": "Amala + Ewedu", "description": "Soft amala with ewedu soup and beef", "price": 1200, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Swallows", "popular": true },
+    { "id": "m42c", "name": "Beans + Plantain", "description": "Honey beans with fried plantain", "price": 1000, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Specials", "popular": false },
+    { "id": "m42d", "name": "Fried Rice + Chicken", "description": "Nigerian fried rice with fried chicken", "price": 1800, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": true },
+    { "id": "m42e", "name": "Egusi + Garri", "description": "Thick egusi soup with crispy eba", "price": 1500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m42f", "name": "Akara", "description": "Crispy bean cakes freshly fried", "price": 600, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Breakfast", "popular": true },
+    { "id": "m42g", "name": "Moimoi", "description": "Steamed bean pudding with fish", "price": 800, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Breakfast", "popular": false },
+    { "id": "m42h", "name": "White Rice + Stew", "description": "Steamed rice with tomato beef stew", "price": 1200, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m42i", "name": "Fried Yam + Egg", "description": "Crispy fried yam with scrambled eggs", "price": 1200, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Breakfast", "popular": true },
+    { "id": "m42j", "name": "Okra + Fufu", "description": "Fresh okra soup with smooth fufu", "price": 1500, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false }
+  ],
+  "r28": [
+    { "id": "m43a", "name": "Dim Sum Basket", "description": "Steamed pork and prawn dumplings", "price": 6000, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Starters", "popular": true },
+    { "id": "m43b", "name": "Hot Pot Beef", "description": "Thinly sliced beef in bubbling spiced broth", "price": 9000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Hot Pot", "popular": true },
+    { "id": "m43c", "name": "Hot Pot Seafood", "description": "Mixed seafood in fragrant hot pot broth", "price": 12000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Hot Pot", "popular": false },
+    { "id": "m43d", "name": "Fried Rice", "description": "Wok fried rice with egg and vegetables", "price": 5000, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": true },
+    { "id": "m43e", "name": "Noodles", "description": "Stir fried egg noodles with vegetables and soy", "price": 5500, "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=300", "category": "Noodles", "popular": false },
+    { "id": "m43f", "name": "Spring Rolls", "description": "4 crispy spring rolls with sweet chilli dip", "price": 3500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Starters", "popular": true },
+    { "id": "m43g", "name": "Sweet & Sour Chicken", "description": "Crispy chicken in tangy sweet and sour sauce", "price": 7500, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": false },
+    { "id": "m43h", "name": "Beef Fried Rice", "description": "Wok fried rice with shredded beef and egg", "price": 6000, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": true },
+    { "id": "m43i", "name": "Prawn Crackers", "description": "Light crispy prawn crackers with dipping sauce", "price": 2000, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Snacks", "popular": false },
+    { "id": "m43j", "name": "Kung Pao Chicken", "description": "Spicy stir fried chicken with peanuts", "price": 8000, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": false }
+  ],
+  "r29": [
+    { "id": "m44a", "name": "Beef Suya", "description": "Premium beef suya with yaji spice", "price": 4000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m44b", "name": "Grilled Half Chicken", "description": "Marinated half chicken grilled over open flame", "price": 6500, "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=300", "category": "Chicken", "popular": true },
+    { "id": "m44c", "name": "Lamb Chops", "description": "3 grilled lamb chops with pepper sauce", "price": 12000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": false },
+    { "id": "m44d", "name": "Pork Ribs", "description": "Slow cooked ribs with BBQ glaze", "price": 14000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m44e", "name": "Grilled Tilapia", "description": "Whole tilapia grilled with pepper rub", "price": 7000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m44f", "name": "Pepper Chicken", "description": "Fried chicken in hot pepper sauce", "price": 5500, "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=300", "category": "Chicken", "popular": true },
+    { "id": "m44g", "name": "Jollof Rice", "description": "Smoky jollof rice cooked in tomato base", "price": 3000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Sides", "popular": false },
+    { "id": "m44h", "name": "Coleslaw", "description": "House coleslaw with grilled corn", "price": 1500, "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300", "category": "Sides", "popular": false },
+    { "id": "m44i", "name": "Asun", "description": "Peppered goat meat, smoky and juicy", "price": 6000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Grills", "popular": true },
+    { "id": "m44j", "name": "Mixed Grill Platter", "description": "Beef, chicken and fish with two sides", "price": 16000, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300", "category": "Platters", "popular": false }
+  ],
+  "r30": [
+    { "id": "m45a", "name": "Chicken Caesar Wrap", "description": "Grilled chicken, romaine and parmesan in a tortilla", "price": 2800, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": true },
+    { "id": "m45b", "name": "Beef Wrap", "description": "Spiced beef strips with peppers and mayo", "price": 3000, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": false },
+    { "id": "m45c", "name": "Veggie Wrap", "description": "Roasted vegetables with hummus and feta", "price": 2500, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": false },
+    { "id": "m45d", "name": "Chicken Burger", "description": "Crispy chicken fillet with lettuce and tomato", "price": 2500, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m45e", "name": "Classic Cheeseburger", "description": "Beef patty with cheddar, pickles and mustard", "price": 2800, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": true },
+    { "id": "m45f", "name": "Shawarma", "description": "Spiced meat in flatbread with garlic sauce", "price": 2500, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=300", "category": "Wraps", "popular": true },
+    { "id": "m45g", "name": "Chips & Dip", "description": "Golden fries with cheese dipping sauce", "price": 1500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m45h", "name": "Onion Rings", "description": "Crispy battered rings with ranch dip", "price": 1800, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Sides", "popular": false },
+    { "id": "m45i", "name": "Double Patty Burger", "description": "Two beef patties with cheese and special sauce", "price": 3500, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300", "category": "Burgers", "popular": false },
+    { "id": "m45j", "name": "Milkshake", "description": "Thick vanilla or chocolate milkshake", "price": 2000, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", "category": "Drinks", "popular": true }
+  ],
+  "r31": [
+    { "id": "m46a", "name": "Amala + Abula", "description": "Smooth amala with mixed gbegiri and ewedu", "price": 2000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Swallows", "popular": true },
+    { "id": "m46b", "name": "Jollof Rice + Chicken", "description": "Party jollof with fried chicken leg", "price": 2500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": true },
+    { "id": "m46c", "name": "Ofada + Designer Stew", "description": "Local ofada rice with designer stew", "price": 3000, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Rice", "popular": false },
+    { "id": "m46d", "name": "Pounded Yam + Egusi", "description": "Smooth pounded yam with egusi soup", "price": 2800, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m46e", "name": "Catfish Pepper Soup", "description": "Fresh catfish in spiced broth", "price": 4500, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m46f", "name": "Ewa Agoyin", "description": "Mashed beans with special pepper sauce", "price": 1200, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Specials", "popular": true },
+    { "id": "m46g", "name": "Grilled Chicken", "description": "Half chicken marinated and grilled", "price": 5000, "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=300", "category": "Protein", "popular": false },
+    { "id": "m46h", "name": "Fried Rice + Turkey", "description": "Nigerian fried rice with grilled turkey", "price": 3000, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": false },
+    { "id": "m46i", "name": "Oha Soup + Fufu", "description": "Oha leaf soup with smooth fufu", "price": 3200, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300", "category": "Swallows", "popular": false },
+    { "id": "m46j", "name": "Moimoi + Pap", "description": "Steamed bean pudding with smooth pap", "price": 1500, "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300", "category": "Breakfast", "popular": true }
+  ],
+  "r32": [
+    { "id": "m47a", "name": "Grilled Snapper", "description": "Whole red snapper grilled with pepper sauce", "price": 12000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m47b", "name": "Seafood Platter", "description": "Prawns, fish, calamari and mussels", "price": 25000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Platters", "popular": true },
+    { "id": "m47c", "name": "Grilled Lobster", "description": "Half lobster grilled with herb butter", "price": 22000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m47d", "name": "Catfish Pepper Soup", "description": "Fresh catfish in spiced pepper broth", "price": 6000, "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=300", "category": "Soups", "popular": true },
+    { "id": "m47e", "name": "Calamari", "description": "Fried calamari rings with garlic aioli", "price": 7000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": false },
+    { "id": "m47f", "name": "Grilled Tilapia", "description": "Fresh tilapia with side salad and chips", "price": 8000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": true },
+    { "id": "m47g", "name": "Prawns in Garlic Butter", "description": "Jumbo prawns sauteed in garlic and herb butter", "price": 10000, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Seafood", "popular": false },
+    { "id": "m47h", "name": "Fish & Chips", "description": "Battered fish with thick cut chips", "price": 7500, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=300", "category": "Mains", "popular": false },
+    { "id": "m47i", "name": "Prawn Cocktail", "description": "Chilled prawns with marie rose sauce", "price": 6500, "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=300", "category": "Starters", "popular": true },
+    { "id": "m47j", "name": "Crab Fried Rice", "description": "Wok fried rice with crab meat and egg", "price": 9000, "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300", "category": "Rice", "popular": false }
+  ]
 }

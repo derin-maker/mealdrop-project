@@ -25,20 +25,6 @@ import useOrderStore from "../store/orderStore";
 import useAuthStore from "../store/authStore";
 import OrderLineItem from "../components/OrderLineItem";
 import restaurants from "../data/restaurants.json";
-const SAVED_ADDRESSES = [
-  {
-    id: "1",
-    label: "Home",
-    address: "No 12 Adeleke Street, Bodija, Ibadan",
-    icon: <HomeOutlined fontSize="small" />,
-  },
-  {
-    id: "2",
-    label: "Work",
-    address: "Suite 4B, Challenge Plaza, Ibadan",
-    icon: <WorkOutlined fontSize="small" />,
-  },
-];
 
 const PAYMENT_METHODS = [
   {
@@ -66,8 +52,21 @@ function Payment() {
   const { items, clearCart, getTotal } = useCartStore();
   const { placeOrder } = useOrderStore();
   const { user } = useAuthStore();
+  const savedAddresses = (
+    JSON.parse(localStorage.getItem("savedAddresses")) || []
+  ).map((addr) => ({
+    ...addr,
+    icon:
+      addr.label === "Home" ? (
+        <HomeOutlined fontSize="small" />
+      ) : (
+        <WorkOutlined fontSize="small" />
+      ),
+  }));
 
-  const [selectedAddress, setSelectedAddress] = useState("1");
+  const [selectedAddress, setSelectedAddress] = useState(
+    savedAddresses[0]?.id || "",
+  );
   const [selectedPayment, setSelectedPayment] = useState("cash");
 
   const subtotal = getTotal();
@@ -86,7 +85,7 @@ const total = subtotal + deliveryFee;
       restaurantName: restaurantData?.name || "Unknown",
       paymentMethod: PAYMENT_METHODS.find((m) => m.id === selectedPayment)
         ?.label,
-      deliveryAddress: SAVED_ADDRESSES.find((a) => a.id === selectedAddress)
+      deliveryAddress: savedAddresses.find((a) => a.id === selectedAddress)
         ?.address,
     });
     clearCart();
@@ -144,7 +143,11 @@ const total = subtotal + deliveryFee;
                 gap: 1.5,
               }}
             >
-              {SAVED_ADDRESSES.map((addr) => (
+              {savedAddresses.length === 0 ? (
+                <Typography variant="body2" color="text.secondary">
+                  No saved addresses yet. Add an address in your profile.
+                </Typography>
+              ) : savedAddresses.map((addr) => (
                 <Box
                   key={addr.id}
                   onClick={() => setSelectedAddress(addr.id)}
@@ -298,6 +301,7 @@ const total = subtotal + deliveryFee;
         fullWidth
         size="large"
         onClick={handlePlaceOrder}
+        disabled={!selectedAddress}
         sx={{ py: 2, fontSize: "1rem", borderRadius: "999px" }}
       >
         Place Order · ₦{total.toLocaleString()}
